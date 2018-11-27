@@ -1,154 +1,201 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>reveal.js</title>
 
-	<title>reveal.js</title>
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/black.css" />
 
-	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/black.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css" />
 
-	<!-- Theme used for syntax highlighting of code -->
-	<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+  </head>
 
-	<!-- Printing and PDF exports -->
-	<script>
-		var link = document.createElement('link');
-		link.rel = 'stylesheet';
-		link.type = 'text/css';
-		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-		document.getElementsByTagName('head')[0].appendChild(link);
-	</script>
-</head>
+  <body>
+    <style type="text/css">
+      img {
+        box-shadow: none !important;
+      }
+    </style>
+    <div
+      class="reveal"
+      style="font-family: 'Helvetica Neue'; font-weight: 100;"
+    >
+      <div class="slides">
+        <section>
+          <h1>Welcome</h1>
+          <div style="display: flex; justify-content: space-around;">
+            <div>
+              <img
+                src="images/MFMLOGO.svg"
+                style="border: 0; background: none; max-width: 150px;"
+              />
+              <br />
+              <span>
+                <a href="https://milanofrontend.it">MilanoFrontendMeetup</a>
+              </span>
+            </div>
+            <div>
+              <img
+                src="images/slacklogo.png"
+                style="border: 0; background: none; max-width: 150px;"
+              />
+              <br />
+              <span>
+                <a href="https://frontendersmeetups.herokuapp.com"
+                  >frontendersmeetups.herokuapp.com</a
+                >
+              </span>
+            </div>
+          </div>
+        </section>
 
-<body>
-	<style type="text/css">
-		img {
-			box-shadow: none !important;
-		}
-	</style>
-	<div class="reveal" style="font-family: 'Helvetica Neue'; font-weight: 100;">
-		<div class="slides">
-			<section>
-				<h1>Welcome</h1>
-				<div style="display: flex; justify-content: space-around;">
-					<div>
-						<img src="images/MFMLOGO.svg" style="border: 0; background: none; max-width: 150px;" />
-						<br>
-						<span>
-							<a href="https://milanofrontend.it">milanofrontend.it</a>
-						</span>
-					</div>
-					<div>
-						<img src="images/slacklogo.png" style="border: 0; background: none; max-width: 150px;" />
-						<br>
-						<span>
-							<a href="http://milanofrontend.herokuapp.com/">milanofrontend.herokuapp.com</a>
-						</span>
-					</div>
-				</div>
-			</section>
+        <section>
+          <h2 style="font-weight: 100">Who we are</h2>
+          <h4 style="font-weight: 100">(and what we are doing here)</h4>
+          <img
+            src="images/MFMLOGO.svg"
+            style="background: none; border: none; max-width: 250px;"
+          />
+        </section>
 
-			<section>
-				<h2 style="font-weight: 100">Who we are</h2>
-				<h4 style="font-weight: 100">(and what we are doing here)</h4>
-				<img src="images/MFMLOGO.svg" style="background: none; border: none; max-width: 250px;" />
-			</section>
+        <section>
+          <h2 style="font-weight: 100">L'angolo marchetta!</h2>
+          <h4 style="font-weight: 100" class="fragment">
+            No seriamente, un grazie sentito
+          </h4>
+        </section>
 
-			<section>
-				<h2 style="font-weight: 100">L'angolo marchetta!</h2>
-				<h4 style="font-weight: 100" class="fragment">No seriamente, un grazie sentito</h4>
-			</section>
+        <section
+          data-background-image="./images/mikamai.png"
+          style="position: relative;"
+        >
+          <section>
+            <a
+              href="https://drive.google.com/open?id=1TaxIklmQbrz-Rq_7i5ON36tcvJNKvUf6x21-V7Yq64w"
+              target="_blank"
+              style="position: absolute; opacity: 0; width: 100vw; height: 100vh; left: 0;"
+              >slide</a
+            >
+          </section>
+        </section>
 
-			<section data-background-image="./images/mikamai.png" style="position: relative;">
-				<section>
-					<a href="https://drive.google.com/open?id=1TaxIklmQbrz-Rq_7i5ON36tcvJNKvUf6x21-V7Yq64w" target="_blank" style="position: absolute; opacity: 0; width: 100vw; height: 100vh; left: 0;">slide</a>
-				</section>
-			</section>
+        <section data-background-color="#ffffff">
+          <a
+            href="./Crebs-MilanoFrontEnd-10.pdf"
+            target="_blank"
+            style="position: absolute; opacity: 0; width: 100%; height: 100%; left: 0; top: 0;"
+            >slide</a
+          >
+          <img
+            src="images/crebs.png"
+            style="background: none; border: none; width: 50vw;"
+          />
+        </section>
 
-			<section data-background-color="#ffffff">
-				<a href="./Crebs-MilanoFrontEnd-10.pdf" target="_blank" style="position: absolute; opacity: 0; width: 100%; height: 100%; left: 0; top: 0;">slide</a>
-				<img src="images/crebs.png" style="background: none; border: none; width: 50vw;" />
-			</section>
+        <section data-background-color="#ffffff">
+          <img
+            src="images/jet-brains.png"
+            style="background: none; border: none;max-width: 50vw;"
+          />
+        </section>
 
-			<section data-background-color="#ffffff">
-				<img src="images/jet-brains.png" style="background: none; border: none;max-width: 50vw;" />
-			</section>
+        <section>
+          <h3>DUE LICENZE!</h3>
+          <div class="fragment">Rimanete sintonizzati fino alla fine...</div>
+        </section>
 
-			<section>
-				<h3>DUE LICENZE!</h3>
-				<div class="fragment">
-					Rimanete sintonizzati fino alla fine...
-				</div>
-			</section>
+        <section>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/9fVn2XtuJpY"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+          ></iframe>
+        </section>
 
-			<section>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/9fVn2XtuJpY" frameborder="0" allow="autoplay; encrypted-media"
-				 allowfullscreen></iframe>
-			</section>
+        <section>
+          <a href="https://www.patreon.com/milanofrontend"
+            >patreon.com/milanofrontend</a
+          >
+        </section>
 
-			<section>
-				<a href="https://www.patreon.com/milanofrontend">patreon.com/milanofrontend</a>
-			</section>
+        <section>
+          <img class="plain" src="./images/modo-shadow-logo.png" alt="" />
+        </section>
 
-			<section>
-				<img class="plain" src="./images/modo-shadow-logo.png" alt="">
-			</section>
+        <section>
+          <img
+            src="images/wwy.jpg"
+            style="background: none; border: none; max-width: 650px;"
+          />
+        </section>
 
-			<section>
-				<img src="images/wwy.jpg" style="background: none; border: none; max-width: 650px;" />
-			</section>
+        <section data-background-color="#ffffff">
+          <h1>Prossimi eventi</h1>
+          <h2>Codemotion</h2>
+        </section>
 
-			<section data-background-color="#ffffff">
-				<h1>Prossimi eventi</h1>
-				<h2>Codemotion</h2>
-			</section>
+        <section data-background-color="#ffffff">
+          <h1>Next month</h1>
+          <p>martedì 18 dicembre 2018</p>
+          <h3>
+            Dicembre 2018 - Marco Valsecchi, Valse per gli amici - GatsbyJS: il
+            futuro è veloce
+          </h3>
+        </section>
 
+        <section><h1>E dopo il meetup</h1></section>
+      </div>
+    </div>
 
-			<section data-background-color="#ffffff">
-				<h1>Next month</h1>
-				<p>martedì 27 novembre 2018</p>
-				<h3>Novembre 2018 - Jiayi Hu - Custom properties</h3>
-			</section>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
 
-			<section>
-				<h1>E dopo il meetup</h1>
-			</section>
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        history: true,
 
-		</div>
-	</div>
-
-	<script src="lib/js/head.min.js"></script>
-	<script src="js/reveal.js"></script>
-
-	<script>
-		// More info https://github.com/hakimel/reveal.js#configuration
-		Reveal.initialize({
-			history: true,
-
-			// More info https://github.com/hakimel/reveal.js#dependencies
-			dependencies: [{
-					src: 'plugin/markdown/marked.js'
-				},
-				{
-					src: 'plugin/markdown/markdown.js'
-				},
-				{
-					src: 'plugin/notes/notes.js',
-					async: true
-				},
-				{
-					src: 'plugin/highlight/highlight.js',
-					async: true,
-					callback: function () {
-						hljs.initHighlightingOnLoad();
-					}
-				}
-			]
-		});
-	</script>
-</body>
-
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          {
+            src: "plugin/markdown/marked.js"
+          },
+          {
+            src: "plugin/markdown/markdown.js"
+          },
+          {
+            src: "plugin/notes/notes.js",
+            async: true
+          },
+          {
+            src: "plugin/highlight/highlight.js",
+            async: true,
+            callback: function() {
+              hljs.initHighlightingOnLoad();
+            }
+          }
+        ]
+      });
+    </script>
+  </body>
 </html>
